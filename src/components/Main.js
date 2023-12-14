@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { Link as ScrollLink } from 'react-scroll';
-import videoBg from "../assets/portfolio-videoBg.mp4"
+import videoBg from "../assets/videoBg.mp4"
 import downArrow from "../assets/downArrow.png"
 
 import '../css/Main.css'
