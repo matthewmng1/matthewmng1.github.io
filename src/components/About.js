@@ -26,8 +26,8 @@ const About = () => {
               </p>
             </div>
             <div className='about-content-links'>
-              <a className='about-link'>github</a>
-              <a className='about-link'>linkedin</a>
+              <a className='about-link' href='https://github.com/matthewmng1'>github</a>
+              <a className='about-link' href='www.linkedin.com/in/matthewmng1'>linkedin</a>
               <a className='about-link'>resume</a>
             </div>
           </div>
