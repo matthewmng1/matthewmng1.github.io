@@ -1,0 +1,55 @@
+.portfolio{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-wrapper{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-header{
+  display: flex;
+  font-size: 1.9em;
+  font-weight: bold;
+  padding: 5% 0 0 5%;
+}
+
+.portfolio-header p {
+  margin-top: 12.5px;
+  margin-left: 10px;
+}
+
+
+.portfolio-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  padding: 5% 10% 0 5%;
+
+}
+
+.portfolio-table{
+  height: 80%;
+  width: 90%;
+}
+
+.portfolio-table-header{
+  display: flex;
+  min-width: 100%;
+}
+
+.portfolio-table-content{
+  width: 70%;
+  padding: 0 5% 0 5%;
+}
+
+.portfolio-table-row td {
+  vertical-align: top;
+}

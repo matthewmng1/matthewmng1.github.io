@@ -1,0 +1,55 @@
+.skills{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-wrapper{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.skills-header{
+  display: flex;
+  font-size: 1.9em;
+  font-weight: bold;
+  padding: 5% 0 0 5%;
+}
+
+.skills-header p {
+  margin-top: 12.5px;
+  margin-left: 10px;
+}
+
+.skills-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  padding: 5% 10% 0 5%;
+
+}
+
+.skills-table{
+  height: 80%;
+  width: 90%;
+}
+
+.skills-table-header{
+  display: flex;
+  min-width: 100%;
+}
+
+.skills-table-content{
+  width: 80%;
+  padding: 0 5% 0 5%;
+}
+
+td {
+  vertical-align: top;
+}
