@@ -1,32 +1,43 @@
 import React from 'react'
 
+import projectIcon from "../assets/projects.png"
+import expenseIcon from "../assets/expense-tracker.png"
+import storeIcon from "../assets/store.png"
+import expenseSS from "../assets/expense-screenshot.png"
+import wordquakeSS from "../assets/wordquake-screenshot.png"
 import '../css/Portfolio.css'
 
 const Portfolio = () => {
+
   return (
     <div className='portfolio' id='portfolio'>
       <div className='portfolio-wrapper'> 
         <div className='portfolio-header'>
-          <img src='https://unicons.iconscout.com/release/v4.0.8/svg/line/folder-open.svg' style={{ width: "60px"}}/>
+          <img src={projectIcon} style={{ width: "60px"}}/>
           <p>Projects</p>
         </div>
         <div className='portfolio-container'>
-          <table className='portfolio-table'>
-            <tr className='portfolio-table-row'>
-              <td className='portfolio-table-header'>
-                <img src='https://unicons.iconscout.com/release/v4.0.8/svg/line/book.svg'style={{ width: "20px"}}/>&nbsp;
-                <p>EXPENSE TRACKER</p>
-                </td>
-              <td className='portfolio-table-content'>Magna dolore sit id tempor. Fugiat sint aliqua elit ipsum nostrud et do esse cillum et ipsum. Laborum laboris consectetur quis esse eu esse sint nisi ex. Eiusmod in nulla mollit amet duis adipisicing ut id. Qui qui mollit magna eu mollit consectetur reprehenderit eiusmod non reprehenderit. Ex eiusmod consectetur proident incididunt irure fugiat.</td>
-            </tr>
-            <tr className='portfolio-table-row'>
-              <td className='portfolio-table-header'>
-                <img src='https://unicons.iconscout.com/release/v4.0.8/svg/line/store.svg'style={{ width: "20px"}}/>&nbsp;
-                <p>STORE FRONT</p>
-              </td>
-              <td className='portfolio-table-content'>Laborum deserunt incididunt nostrud cupidatat do labore laborum irure labore. Pariatur occaecat ex id voluptate nulla. Esse tempor dolor exercitation do aliqua nostrud quis. Non proident et sunt aliquip. Lorem ut eu pariatur in non aute. Cupidatat enim duis eiusmod dolor consectetur labore.</td>
-            </tr>
-          </table>
+          <div className='portfolio-box'>
+            <div className='portfolio-box-content'>
+              <a href='https://expense-tracker-b627.onrender.com/admin/overview'><img src={expenseSS} style={{width: "auto", height:"250px"}}/></a>&nbsp;
+              <h2>Expense Tracker</h2>
+              <p>A simple way to track your spending</p>
+            </div>
+          </div>
+          <div className='portfolio-box'>
+            <div className='portfolio-box-content'>
+            <a href='https://wordquake-game-client.vercel.app/'><img src={wordquakeSS} style={{width: "auto", height:"250px"}}/></a>&nbsp;
+            <h2>WordQuake</h2>
+            <p>A Boggle-inspired Word Game</p>
+            </div>
+          </div>
+          <div className='portfolio-box'>
+            <div className='portfolio-box-content'>
+            <a><img src={storeIcon} style={{width: "auto", height:"250px"}}/></a>&nbsp;
+            <h2>Custom Store Front</h2>
+            <p>A passion project currently under development</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

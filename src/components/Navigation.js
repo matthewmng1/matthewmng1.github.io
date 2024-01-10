@@ -1,10 +1,9 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import squarePic from '../assets/squarePic.jpg'
+import resume from "../assets/Matthew_Ng_Resume_2024.pdf"
 
 import '../css/Navigation.css'
-import Main from './Main'
 
 const Navigation = () => {
   return (
@@ -60,7 +59,10 @@ const Navigation = () => {
                 portfolio
               </ScrollLink>
 
-              <a className="nav-link">
+              <a 
+                className="nav-link"
+                href={resume}
+              >
                 resume
               </a>
           </nav>

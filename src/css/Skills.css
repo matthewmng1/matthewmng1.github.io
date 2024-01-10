@@ -1,16 +1,14 @@
 .skills{
   display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
+  min-height: 100vh;
 }
 
 .skills-wrapper{
-  height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 
 }
 
@@ -19,6 +17,7 @@
   font-size: 1.9em;
   font-weight: bold;
   padding: 5% 0 0 5%;
+  align-items: center;
 }
 
 .skills-header p {
@@ -42,7 +41,8 @@
 
 .skills-table-header{
   display: flex;
-  min-width: 100%;
+  min-width: 80%;
+  align-items: center;
 }
 
 .skills-table-content{
@@ -52,4 +52,5 @@
 
 td {
   vertical-align: top;
+  width: inherit;
 }

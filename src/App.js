@@ -13,10 +13,10 @@ function App() {
       <div className='app-main'>
         <Main/>
       </div>
-      <div className='app-container'> 
-        <div className='app-nav'>
-          <Navigation/>
-        </div>
+      <div className='app-container'>
+          <div className='app-nav'>
+            <Navigation/>
+          </div>
         <div className='app-content'>
           <div className='app-about'>
             <About/>
@@ -28,9 +28,7 @@ function App() {
             <Portfolio/>
           </div>
         </div>
-        
       </div>
-      
     </div>
     
   );
