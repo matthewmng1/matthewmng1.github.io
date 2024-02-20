@@ -17,7 +17,7 @@ const Main = () => {
             <TypeAnimation
               sequence={[
                 "Hi, I'm Matthew.", 1000,
-                "I am a full-stack developer from New York City.", 1500,
+                "I am a full-stack developer and data scientist from New York City.", 1500,
                 "You can reach me at matthewmng1@gmail.com", 2000,
                 "Thanks for visiting!", 1000,
                 "",
