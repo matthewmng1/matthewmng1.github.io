@@ -6,6 +6,7 @@ import storeIcon from "../assets/store.png"
 import expenseSS from "../assets/expense-screenshot.png"
 import wordquakeSS from "../assets/wordquake-screenshot.png"
 import '../css/Portfolio.css'
+import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
 
@@ -19,23 +20,56 @@ const Portfolio = () => {
         <div className='portfolio-container'>
           <div className='portfolio-box'>
             <div className='portfolio-box-content'>
-              <a href='https://expense-tracker-b627.onrender.com/admin/overview'><img src={expenseSS} style={{width: "auto", height:"250px"}}/></a>&nbsp;
-              <h2>Expense Tracker</h2>
-              <p>A simple way to track your spending</p>
+              <span style={{display: "inline-block"}}>
+                <h3 style={{display: "inline"}}>Rugby Dashboard</h3>
+                <small><a href="https://github.com/matthewmng1/rugby-dashboard"> Repo</a></small>
+              </span>
+              <div><small><i>Project built in collaboration with the Newcastle Falcons Professional Rugby Union Club for the degree of Master of Data Science at Durham University.</i></small></div>
+              <hr></hr>
+              <li>A web application displaying rugby matches, players, statistics and performance scores using data processed from OvalInsights CSVs in R-Studio using PCA, ANOVA and randomForest models.</li>
+              <li>Dashboard build on React, Python, Flask, and PostgreSql.</li>
             </div>
           </div>
+          <br></br>
           <div className='portfolio-box'>
             <div className='portfolio-box-content'>
-            <a href='https://wordquake-game-client.vercel.app/'><img src={wordquakeSS} style={{width: "auto", height:"250px"}}/></a>&nbsp;
-            <h2>WordQuake</h2>
-            <p>A Boggle-inspired Word Game</p>
+              <span style={{display: "inline-block"}}>
+                <h3 style={{display: "inline"}}>Expense Tracker </h3>
+                <small>
+                  <a href='https://expense-tracker-b627.onrender.com/admin/overview'> Demo </a> | 
+                  <a href="https://github.com/matthewmng1/expense-tracker"> Repo</a></small>
+              </span>
+              <hr></hr>
+              <li>A simple web application where users can create an account, log and view expenses, and customize spending categories and payment methods</li>
+              <li>Developed using React, JavaScript, Nodejs, Expressjs and MongoDB.</li>
             </div>
           </div>
+          <br></br>
           <div className='portfolio-box'>
             <div className='portfolio-box-content'>
-            <a><img src={storeIcon} style={{width: "auto", height:"250px"}}/></a>&nbsp;
-            <h2>Custom Store Front</h2>
-            <p>A passion project currently under development</p>
+              <span style={{display: "inline-block"}}>
+                <h3 style={{display: "inline"}}>WordQuake</h3>
+                <small>
+                  <a href='https://wordquake-game-client.vercel.app/'> Demo </a> | 
+                  <a href="https://github.com/matthewmng1/wordquake-game"> Repo</a></small>
+              </span>
+              <div><small><i>A Springboard Bootcamp project.</i></small></div>
+              <hr></hr>
+              <li>A Boggle-inspired word game. Users search for words on a 5x5 to earn points based on word length.</li>
+              <li>Built using React, JavaScript, Nodejs and Expressjs.</li>
+            </div>
+          </div>
+          <br></br>
+          <div className='portfolio-box'>
+            <div className='portfolio-box-content'>
+            <span style={{display: "inline-block"}}>
+                <h3 style={{display: "inline"}}>SteamNews</h3>
+                <small><a href="https://github.com/matthewmng1/Capstone2-Steam"> Repo</a></small>
+              </span>
+              <div><small><i>A Springboard Bootcamp project.</i></small></div>
+            <hr></hr>
+            <li>Users create accounts, search for news related to games on Steam and save games to their dashboards. </li>
+            <li>Built using React, JavaScript, Nodejs, Expressjs, and PostgreSql. </li>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link as ScrollLink } from 'react-scroll';
-import squarePic from '../assets/squarePic.jpg'
+import squarePic from '../assets/nav-pic.png'
 import resume from "../assets/Matthew_Ng_Resume_2024.pdf"
 
 import '../css/Navigation.css'
@@ -11,7 +11,7 @@ const Navigation = () => {
       <div className='nav-left'>
         <div className='nav-left-content'>
           <div className="nav-left-img">
-            <img src={squarePic} style={{width: "100px", borderRadius: "180px"}}/>
+            <img src={squarePic} style={{width: "150px", borderRadius: "1000px"}}/>
           </div>
           
           <nav className='nav-links'>

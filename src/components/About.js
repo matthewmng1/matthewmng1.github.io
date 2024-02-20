@@ -6,7 +6,7 @@ import emailIcon from "../assets/email.png"
 import githubIcon from "../assets/github.png"
 import linkedinIcon from "../assets/linkedin.png"
 import resumeIcon from "../assets/resume.png"
-import resume from "../assets/Matthew_Ng_Resume_2024.pdf"
+import resume from "../assets/Matthew_Ng_SWDS_Resume.pdf"
 
 import '../css/About.css'
 
@@ -25,11 +25,11 @@ const About = () => {
           <div className='about-content'>
             <div className='about-content-text'>
               <p>
-                Hello! I'm Matthew and I'm a junior full-stack web developer and graduate data scientist located in Parker, Colorado. My  background is primarily in education, having worked as a classroom teacher in New York City since graduating with a Master of Education in 2016. My experience teaching in inner-city schools has cultivated my creativity and problem solving skills in fast-paced environments and I am currently looking for roles in web development where I can further hone my personal and web development skills. <br/><br/>
+                Hello! I’m Matthew and I’m a full-stack web developer and data scientist located in Parker, Colorado. In the past year, I’ve completed a remote software engineering bootcamp at Springboard while simultaneously enrolled in a Master of Data Science program at Durham University. I completed the Springboard bootcamp in July 2023 and graduated from Durham University with a 4.0 cumulative GPA and First-Class Honors in September 2023. I’m currently seeking roles in web development and data analytics where I can continue to grow my skills in these fields. <br/><br/>
 
-                In July of 2023, I received my Certification of Completion from the Springboard Software Engineering bootcamp. Shortly after in September 2023 I completed a Master of Data Science from Durham University, graduating with First-Class Honors. I am eager to build upon my new academic foundation and apply my skills to building products that can have real-world applications. <br/><br/>
-                
-                When I am not working on my coding knowledge, I enjoy exploring the outdoors, travelling to new places, and playing and coaching volleyball. <br/>
+                Prior to transitioning into technology, I worked as a full-time classroom teacher in New York City after completing a Master of Education program at Durham University in 2016. During this period, I helped to graduate founding classes at two different schools, managed and led teams of educators with up to 12 years of classroom experience, and collaborated on the regional level in curriculum development and classroom technology. Teaching in inner-city schools has cultivated my creativity and problem-solving skills and I’m eager to apply these skills to a new role in web development or data analytics.  <br/><br/>
+                  
+                Outside of education and technology, I enjoy playing and coaching volleyball, exploring the outdoors, travelling to new places, learning new recipes and trying new restaurants.  <br/>
               </p>
             </div>
 
